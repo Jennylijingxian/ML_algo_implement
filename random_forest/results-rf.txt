@@ -1,0 +1,123 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.7.1, pytest-5.3.0, py-1.7.0, pluggy-0.13.0 -- /Users/parrt/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+plugins: xdist-1.30.0, doctestplus-0.2.0, arraydiff-0.3, remotedata-0.3.1, openfiles-0.3.1, forked-1.1.3
+gw0 I / gw1 I / gw2 I / gw3 I / gw4 I / gw5 I / gw6 I / gw7 I
+
+[gw0] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw1] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw2] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw3] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw4] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw5] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw6] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw7] darwin Python 3.7.1 cwd: /Users/parrt/grading/msds621/F19/rf-Jennylijingxian
+
+[gw0] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw1] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw2] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw3] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw4] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw5] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw6] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+
+[gw7] Python 3.7.1 (default, Dec 14 2018, 13:28:58)  -- [Clang 4.0.1 (tags/RELEASE_401/final)]
+gw0 [26] / gw1 [26] / gw2 [26] / gw3 [26] / gw4 [26] / gw5 [26] / gw6 [26] / gw7 [26]
+
+scheduling tests via LoadScheduling
+
+test_rf.py::test_boston_oob 
+test_rf.py::test_boston_min_samples_leaf 
+test_rf.py::test_boston 
+test_rf.py::test_boston_most_features 
+test_rf.py::test_diabetes_ntrees 
+test_rf.py::test_boston_min_samples_leaf_oob 
+test_rf.py::test_diabetes 
+test_rf.py::test_boston_all_features 
+[gw1] [  3%] PASSED test_rf.py::test_boston_oob 
+test_rf.py::test_diabetes_most_features 
+[gw0] [  7%] PASSED test_rf.py::test_boston 
+test_rf.py::test_diabetes_all_features 
+[gw6] [ 11%] PASSED test_rf.py::test_diabetes 
+test_rf.py::test_iris 
+[gw6] [ 15%] PASSED test_rf.py::test_iris 
+test_rf.py::test_wine 
+[gw7] [ 19%] PASSED test_rf.py::test_diabetes_ntrees 
+test_rf.py::test_iris_all_features 
+[gw2] [ 23%] PASSED test_rf.py::test_boston_min_samples_leaf 
+test_rf.py::test_diabetes_oob 
+[gw5] [ 26%] PASSED test_rf.py::test_boston_min_samples_leaf_oob 
+test_rf.py::test_iris_ntrees 
+[gw6] [ 30%] PASSED test_rf.py::test_wine 
+test_rf.py::test_wine_all_features 
+[gw7] [ 34%] PASSED test_rf.py::test_iris_all_features 
+test_rf.py::test_wine_most_features 
+[gw5] [ 38%] PASSED test_rf.py::test_iris_ntrees 
+test_rf.py::test_wine_min_samples_leaf 
+[gw2] [ 42%] PASSED test_rf.py::test_diabetes_oob 
+test_rf.py::test_wine_oob 
+[gw7] [ 46%] PASSED test_rf.py::test_wine_most_features 
+test_rf.py::test_breast_cancer 
+[gw1] [ 50%] PASSED test_rf.py::test_diabetes_most_features 
+test_rf.py::test_iris_most_features 
+[gw5] [ 53%] PASSED test_rf.py::test_wine_min_samples_leaf 
+test_rf.py::test_breast_cancer_oob 
+[gw1] [ 57%] PASSED test_rf.py::test_iris_most_features 
+[gw6] [ 61%] PASSED test_rf.py::test_wine_all_features 
+test_rf.py::test_wine_min_samples_leaf_oob 
+[gw2] [ 65%] PASSED test_rf.py::test_wine_oob 
+[gw0] [ 69%] PASSED test_rf.py::test_diabetes_all_features 
+test_rf.py::test_iris_oob 
+[gw6] [ 73%] PASSED test_rf.py::test_wine_min_samples_leaf_oob 
+[gw0] [ 76%] PASSED test_rf.py::test_iris_oob 
+[gw4] [ 80%] PASSED test_rf.py::test_boston_most_features 
+test_rf.py::test_california_housing_oob 
+[gw7] [ 84%] PASSED test_rf.py::test_breast_cancer 
+[gw5] [ 88%] PASSED test_rf.py::test_breast_cancer_oob 
+[gw4] [ 92%] PASSED test_rf.py::test_california_housing_oob 
+[gw3] [ 96%] PASSED test_rf.py::test_boston_all_features 
+test_rf.py::test_california_housing 
+[gw3] [100%] PASSED test_rf.py::test_california_housing 
+
+=============================== warnings summary ===============================
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:737
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:737
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:737
+  /Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:737: UserWarning: Some inputs do not have OOB scores. This probably means too few trees were used to compute any reliable oob estimates.
+    warn("Some inputs do not have OOB scores. "
+
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460
+  /Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:460: UserWarning: Some inputs do not have OOB scores. This probably means too few trees were used to compute any reliable oob estimates.
+    warn("Some inputs do not have OOB scores. "
+
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465
+/Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465
+  /Users/parrt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/forest.py:465: RuntimeWarning: invalid value encountered in true_divide
+    predictions[k].sum(axis=1)[:, np.newaxis])
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+======================= 26 passed, 15 warnings in 37.51s =======================
+© 2020 GitHub, Inc.
